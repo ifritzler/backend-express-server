@@ -1,0 +1,26 @@
+{
+  "name": "backend-express-server",
+  "version": "1.0.0",
+  "description": "An express server ready in render.com",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifritzler/backend-express-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifritzler/backend-express-server/issues"
+  },
+  "homepage": "https://github.com/ifritzler/backend-express-server#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
